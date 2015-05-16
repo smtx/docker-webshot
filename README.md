@@ -1,7 +1,7 @@
 # docker-webshot
-Webshot is a simple command to take local or remote webpage screenshots.
+[Docker](https://github.com/docker/docker) Image for [Webshot-cli](https://github.com/valeriangalliat/webshot-cli), a simple command to take local or remote webpage screenshots.
 
-[Webshot](https://github.com/brenden/node-webshot) is a wrapper around the Webshot library, providing a simple command to take local or remote webpage screenshots. The module is a light wrapper around PhantomJS, which utilizes WebKit to perform the page rendering.
+[Webshot](https://github.com/brenden/node-webshot) is a wrapper around the Webshot library, providing a simple command to take local or remote webpage screenshots. This module is a light wrapper around [PhantomJS](https://github.com/ariya/phantomjs), which utilizes [WebKit](https://github.com/WebKit/webkit) to perform the page rendering.
 
 The container provides webshot-cli module with [IOjs](https://github.com/nodejs/docker-iojs)
 
