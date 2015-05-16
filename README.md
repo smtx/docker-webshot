@@ -9,5 +9,4 @@ Example
 
     docker run -v $HOME:/usr/src/app smtx/webshot webshot example.html example.png 
 
-    docker run -v $HOME:/usr/src/app smtx/webshot webshot –shot-size all/all 
-    'https://www.slashdot.org/' slashdot.png
+    docker run -v $HOME:/usr/src/app smtx/webshot webshot --shot-size all/all 'https://www.slashdot.org/' slashdot.png
