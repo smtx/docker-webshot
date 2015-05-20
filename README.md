@@ -7,6 +7,6 @@ The container provides webshot-cli module with [IOjs](https://github.com/nodejs/
 
 Example
 
-    docker run -v $HOME:/usr/src/app smtx/docker-webshot webshot example.html example.png 
+    docker run --rm -v $HOME:/usr/src/app smtx/docker-webshot webshot example.html example.png 
 
-    docker run -v $HOME:/usr/src/app smtx/docker-webshot webshot --shot-size all/all 'https://www.slashdot.org/' slashdot.png
+    docker run --rm -v $HOME:/usr/src/app smtx/docker-webshot webshot --shot-size all/all 'https://www.slashdot.org/' slashdot.png
